@@ -9,7 +9,7 @@
     <p>
         <h2><%= posts[i].title %></h2>
         <%= posts[i].body.substring(0, 100) + "..." %>
-        <a href="/posts/<%= posts[i].title %>">Read More</a>
+        <a href="/posts/<%= posts[i]._id %>">Read More</a>
     </p>
 <% } %>
 
