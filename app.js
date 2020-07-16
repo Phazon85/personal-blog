@@ -16,7 +16,7 @@ app.use(express.static("public"));
 
 // Conenct to MongoDB
 
-mongoose.connect("mongodb+srv://admin-justin:Voltage13-2@cluster0.uwbc3.mongodb.net/personalBlogDB?retryWrites=true&w=majority")
+mongoose.connect("mongodb://localhost:27017/blog")
 
 // Create database models - Post
 
